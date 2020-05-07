@@ -32,7 +32,9 @@ export default function EmployeesList ( props ) {
 
     return (
         <>
-            <Alert className='bg-black-75'><h1 className='mb-0'>{ department || 'All Employees' }</h1></Alert>
+            <Alert className = 'bg-black-75' fade = { false }>
+                <h1 className = 'mb-0'>{ department || 'All Employees' }</h1>
+            </Alert>
             <div className = 'd-flex flex-wrap align-items-stretch justify-content-between'>
                 {
                     data.employees.map( employee =>

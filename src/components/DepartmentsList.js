@@ -36,7 +36,7 @@ export default function DepartmentsList ( props ) {
 
     return (
         <>
-            <NavItem link = '/employees' name = 'All' icon = 'infinity'/>
+            <NavItem link = '/employees' name = 'All Employees' icon = 'infinity'/>
             { data.departments.map( ( { name }, i ) =>
                 <NavItem key = { i } link = { `/employees/${ name }` } name = { name }
                          icon = { icons[ name ] }/>,

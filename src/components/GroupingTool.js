@@ -57,9 +57,12 @@ export default function GroupingTool ( props ) {
 
     return (
         <>
-            <Alert className='bg-black-75'><h1 className='mb-0'>Grouping Tool</h1></Alert>
+            <Alert className = 'bg-black-75' fade = { false }>
+                <h1 className = 'mb-0'>Grouping Tool</h1>
+            </Alert>
+
             <Card className = 'bg-black-50'>
-                <CardHeader className = 'bg-black-50' >
+                <CardHeader className = 'bg-black-50'>
                     <CardTitle><h2 className = 'mb-0'>Grouping parameteres</h2></CardTitle>
                 </CardHeader>
                 <CardBody>

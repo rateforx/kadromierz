@@ -2,6 +2,10 @@
 
 Developed by Filip Janta
 
+### Preview
+
+![](./preview.png)
+
 ## Server
 
 1. Go to the server directory: 

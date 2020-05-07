@@ -21,7 +21,7 @@ export function EmployeeAvatar ( props ) {
     return (
         <>
             <img src = { props.employee.avatar } className = 'employee-avatar rounded-circle'
-                 id = { `avatar-${ props.employee.id }` }/>
+                 id = { `avatar-${ props.employee.id }` } alt = { props.employee.name }/>
             <Popover placement = 'right' isOpen = { popoverOpen } target = { `avatar-${ props.employee.id }` }
                      toggle = { () => setPopoverOpen( !popoverOpen ) } trigger = 'hover focus'
                      popperClassName = 'bg-black-75' delay = { 100 }

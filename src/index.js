@@ -21,7 +21,7 @@ import App                         from './components/App';
 
 
 const client = new ApolloClient( {
-    uri : `http://${ window.location.hostname }:4000/graphql`,
+    uri : `${ window.location.origin }:4000/graphql`,
 } );
 
 ReactDOM.render(
