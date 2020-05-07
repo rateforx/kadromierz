@@ -1,15 +1,17 @@
 {
-    "name": "kadromierz-server",
-    "repository" : "https://github.com/rateforx/kadromierz",
-    "scripts": {
-        "start": "node src/app.js"
+    "name"         : "kadromierz-server",
+    "repository"   : "https://github.com/rateforx/kadromierz",
+    "scripts"      : {
+        "start" : "node src/app.js"
     },
-    "dependencies": {
-        "cors": "^2.8.5",
-        "express": "^4.17.1",
-        "express-graphql": "^0.9.0",
-        "faker": "^4.1.0",
-        "knex": "^0.21.1",
-        "uuid": "^8.0.0"
+    "dependencies" : {
+        "cors"            : "^2.8.5",
+        "express"         : "^4.17.1",
+        "express-graphql" : "^0.9.0",
+        "faker"           : "^4.1.0",
+        "graphql"         : "^15.0.0",
+        "knex"            : "^0.21.1",
+        "sqlite3"         : "^4.2.0",
+        "uuid"            : "^8.0.0"
     }
 }
