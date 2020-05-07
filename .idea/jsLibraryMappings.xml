@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="PROJECT" libraries="{@types/better-sqlite3, @types/faker, @types/react-bootstrap, @types/react-router-dom, @types/react-table, @types/reactstrap, @types/sqlite3}" />
+  </component>
+</project>
