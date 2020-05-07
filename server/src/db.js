@@ -9,10 +9,14 @@
  *  ******************************************************
  */
 
-body {
-    margin      : 0;
-    padding     : 0;
-    font-family : 'Baloo 2', cursive;
-    font-size   : 12px;
-    background  : #1e1e2f linear-gradient(#1e1e2f, #1e1e24);
-}
+const Knex = require( 'knex' );
+
+const knex = Knex( {
+    client           : 'sqlite3',
+    connection       : {
+        filename : './src/db.sqlite',
+    },
+    useNullAsDefault : true,
+} );
+
+module.exports = knex;

@@ -8,11 +8,11 @@
  *  * permission of Filip Janta
  *  ******************************************************
  */
-
 body {
-    margin      : 0;
-    padding     : 0;
-    font-family : 'Baloo 2', cursive;
-    font-size   : 12px;
-    background  : #1e1e2f linear-gradient(#1e1e2f, #1e1e24);
+  margin: 0;
+  padding: 0;
+  font-family: 'Baloo 2', cursive;
+  font-size: 12px;
+  background: #1e1e2f linear-gradient(#1e1e2f, #1e1e24);
 }
+/*# sourceMappingURL=index.css.map */

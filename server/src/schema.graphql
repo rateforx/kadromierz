@@ -1,0 +1,49 @@
+type Query {
+
+    employee(
+        id: ID
+        name: String
+    ): Employee
+
+    employees(
+        city: String
+        province: String
+        age: Int
+        title: String
+        department: String
+    ): [Employee]!
+
+    employeesGrouped(
+        groupSize: Int!
+        columns: [String]!
+    ): [[Employee]!]!
+
+    departments: [Department!]!
+}
+
+type Employee {
+    id: ID!
+    name: String!
+    city: String!
+    province: String!
+    age: Int!
+    title: String!
+    department: String!
+    avatar: String!
+}
+
+type Department {
+    department: String!
+}
+
+#type Mutation {
+#    addEmployee(
+#        name: String!
+#        city: String!
+#        province: String!
+#        age: Int!
+#        jobTitle: String!
+#        department: String!
+#        avatarUri: String!
+#    ): Employee
+#}
